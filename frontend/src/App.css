@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+}
+
+.app {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  height: 5vh;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.tab {
+  font-family: "Lato", sans-serif;
+  background-color:  rgb(51, 51, 51);
+  font-weight: 500;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  height: 4vh;
+  cursor: pointer;
+  border-radius: 20px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  width: 10rem;
+}
+
+.tab.active {
+  background-color: #ffffff;
+  color: black;
+}
+
+.content {
+  /* border: 1px solid black; */
+  height: 95vh;
+}
+
+.refresh {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  width: 1.1rem;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spin {
+  animation: spin 2s ease-in-out;
+}

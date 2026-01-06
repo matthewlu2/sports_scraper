@@ -1,0 +1,3459 @@
+[
+  {
+    "id": 46,
+    "firstName": "Jabari",
+    "lastName": "Smith Jr.",
+    "stat": "Blocks",
+    "projectedValue": 0.5,
+    "playerMean": 0.52,
+    "percentageOver": 0.5945205479701944,
+    "percentageUnder": 0.4054794520298056,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 54,
+    "firstName": "Jabari",
+    "lastName": "Smith Jr.",
+    "stat": "Points",
+    "projectedValue": 14.5,
+    "playerMean": 14.0,
+    "percentageOver": 0.5704367128273725,
+    "percentageUnder": 0.4295632871726275,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 59,
+    "firstName": "Jabari",
+    "lastName": "Smith Jr.",
+    "stat": "Pts+Ast",
+    "projectedValue": 16.5,
+    "playerMean": 15.7,
+    "percentageOver": 0.5956995370043414,
+    "percentageUnder": 0.4043004629956586,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 63,
+    "firstName": "Jabari",
+    "lastName": "Smith Jr.",
+    "stat": "Pts+Reb",
+    "projectedValue": 22.5,
+    "playerMean": 20.5,
+    "percentageOver": 0.6812670370315108,
+    "percentageUnder": 0.3187329629684892,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 68,
+    "firstName": "Jabari",
+    "lastName": "Smith Jr.",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 24.5,
+    "playerMean": 22.2,
+    "percentageOver": 0.696729510294062,
+    "percentageUnder": 0.30327048970593795,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 87,
+    "firstName": "Tari",
+    "lastName": "Eason",
+    "stat": "Blocks",
+    "projectedValue": 0.5,
+    "playerMean": 0.4,
+    "percentageOver": 0.6703200460356394,
+    "percentageUnder": 0.32967995396436056,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 97,
+    "firstName": "Tari",
+    "lastName": "Eason",
+    "stat": "Points",
+    "projectedValue": 12.5,
+    "playerMean": 8.0,
+    "percentageOver": 0.9362028032634381,
+    "percentageUnder": 0.06379719673656192,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 101,
+    "firstName": "Tari",
+    "lastName": "Eason",
+    "stat": "Pts+Ast",
+    "projectedValue": 14.5,
+    "playerMean": 9.2,
+    "percentageOver": 0.951691268891194,
+    "percentageUnder": 0.04830873110880596,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 102,
+    "firstName": "Tari",
+    "lastName": "Eason",
+    "stat": "Pts+Reb",
+    "projectedValue": 18.5,
+    "playerMean": 11.8,
+    "percentageOver": 0.9674423001070198,
+    "percentageUnder": 0.032557699892980185,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 106,
+    "firstName": "Tari",
+    "lastName": "Eason",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 20.5,
+    "playerMean": 13.0,
+    "percentageOver": 0.9749881893882565,
+    "percentageUnder": 0.025011810611743512,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 138,
+    "firstName": "Kevin",
+    "lastName": "Durant",
+    "stat": "Points",
+    "projectedValue": 25.5,
+    "playerMean": 24.9,
+    "percentageOver": 0.5608731839873037,
+    "percentageUnder": 0.4391268160126963,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 143,
+    "firstName": "Kevin",
+    "lastName": "Durant",
+    "stat": "Pts+Ast",
+    "projectedValue": 29.5,
+    "playerMean": 29.0,
+    "percentageOver": 0.5491708852818761,
+    "percentageUnder": 0.4508291147181239,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 148,
+    "firstName": "Kevin",
+    "lastName": "Durant",
+    "stat": "Pts+Reb",
+    "projectedValue": 30.5,
+    "playerMean": 29.799999999999997,
+    "percentageOver": 0.5628751795174968,
+    "percentageUnder": 0.43712482048250323,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 153,
+    "firstName": "Kevin",
+    "lastName": "Durant",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 35.5,
+    "playerMean": 33.9,
+    "percentageOver": 0.6183615813815252,
+    "percentageUnder": 0.3816384186184748,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 155,
+    "firstName": "Kevin",
+    "lastName": "Durant",
+    "stat": "Reb+Ast",
+    "projectedValue": 10.5,
+    "playerMean": 9.0,
+    "percentageOver": 0.7059883203405117,
+    "percentageUnder": 0.29401167965948827,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 158,
+    "firstName": "Kevin",
+    "lastName": "Durant",
+    "stat": "Rebounds",
+    "projectedValue": 5.5,
+    "playerMean": 4.9,
+    "percentageOver": 0.6335014854910068,
+    "percentageUnder": 0.3664985145089932,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 166,
+    "firstName": "Amen",
+    "lastName": "Thompson",
+    "stat": "Assists",
+    "projectedValue": 5.5,
+    "playerMean": 5.3,
+    "percentageOver": 0.5634733922880715,
+    "percentageUnder": 0.4365266077119285,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 180,
+    "firstName": "Amen",
+    "lastName": "Thompson",
+    "stat": "Points",
+    "projectedValue": 17.5,
+    "playerMean": 15.9,
+    "percentageOver": 0.6686515971329421,
+    "percentageUnder": 0.3313484028670579,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 184,
+    "firstName": "Amen",
+    "lastName": "Thompson",
+    "stat": "Pts+Ast",
+    "projectedValue": 23.5,
+    "playerMean": 21.2,
+    "percentageOver": 0.7007747492786846,
+    "percentageUnder": 0.29922525072131545,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 187,
+    "firstName": "Amen",
+    "lastName": "Thompson",
+    "stat": "Pts+Reb",
+    "projectedValue": 24.5,
+    "playerMean": 23.0,
+    "percentageOver": 0.6345808039919262,
+    "percentageUnder": 0.3654191960080738,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 192,
+    "firstName": "Amen",
+    "lastName": "Thompson",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 30.5,
+    "playerMean": 28.3,
+    "percentageOver": 0.669819723109473,
+    "percentageUnder": 0.330180276890527,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 196,
+    "firstName": "Amen",
+    "lastName": "Thompson",
+    "stat": "Reb+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 12.399999999999999,
+    "percentageOver": 0.5303178858379441,
+    "percentageUnder": 0.46968211416205585,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 200,
+    "firstName": "Amen",
+    "lastName": "Thompson",
+    "stat": "Rebounds",
+    "projectedValue": 7.5,
+    "playerMean": 7.1,
+    "percentageOver": 0.5838170793671988,
+    "percentageUnder": 0.41618292063280116,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 213,
+    "firstName": "Reed",
+    "lastName": "Sheppard",
+    "stat": "Assists",
+    "projectedValue": 3.5,
+    "playerMean": 3.1,
+    "percentageOver": 0.6248399453990454,
+    "percentageUnder": 0.3751600546009546,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 223,
+    "firstName": "Reed",
+    "lastName": "Sheppard",
+    "stat": "Points",
+    "projectedValue": 12.5,
+    "playerMean": 12.2,
+    "percentageOver": 0.5531042619330032,
+    "percentageUnder": 0.4468957380669968,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 228,
+    "firstName": "Reed",
+    "lastName": "Sheppard",
+    "stat": "Pts+Ast",
+    "projectedValue": 16.5,
+    "playerMean": 15.299999999999999,
+    "percentageOver": 0.6350539394614199,
+    "percentageUnder": 0.36494606053858014,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 233,
+    "firstName": "Reed",
+    "lastName": "Sheppard",
+    "stat": "Pts+Reb",
+    "projectedValue": 15.5,
+    "playerMean": 15.2,
+    "percentageOver": 0.5476114438768804,
+    "percentageUnder": 0.45238855612311957,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 239,
+    "firstName": "Reed",
+    "lastName": "Sheppard",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 19.5,
+    "playerMean": 18.3,
+    "percentageOver": 0.6241153505459449,
+    "percentageUnder": 0.3758846494540551,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 266,
+    "firstName": "Nicolas",
+    "lastName": "Claxton",
+    "stat": "Points",
+    "projectedValue": 13.5,
+    "playerMean": 13.2,
+    "percentageOver": 0.551067783317111,
+    "percentageUnder": 0.44893221668288896,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 271,
+    "firstName": "Nicolas",
+    "lastName": "Claxton",
+    "stat": "Pts+Ast",
+    "projectedValue": 16.5,
+    "playerMean": 17.099999999999998,
+    "percentageOver": 0.4581389665207465,
+    "percentageUnder": 0.5418610334792535,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 276,
+    "firstName": "Nicolas",
+    "lastName": "Claxton",
+    "stat": "Pts+Reb",
+    "projectedValue": 20.5,
+    "playerMean": 21.7,
+    "percentageOver": 0.4114917217030595,
+    "percentageUnder": 0.5885082782969405,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 281,
+    "firstName": "Nicolas",
+    "lastName": "Claxton",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 24.5,
+    "playerMean": 25.599999999999998,
+    "percentageOver": 0.4263591893164585,
+    "percentageUnder": 0.5736408106835416,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 285,
+    "firstName": "Nicolas",
+    "lastName": "Claxton",
+    "stat": "Reb+Ast",
+    "projectedValue": 11.5,
+    "playerMean": 12.4,
+    "percentageOver": 0.41669346507916283,
+    "percentageUnder": 0.5833065349208372,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 349,
+    "firstName": "Noah",
+    "lastName": "Clowney",
+    "stat": "Points",
+    "projectedValue": 14.5,
+    "playerMean": 13.7,
+    "percentageOver": 0.6021990531145273,
+    "percentageUnder": 0.39780094688547274,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 352,
+    "firstName": "Noah",
+    "lastName": "Clowney",
+    "stat": "Pts+Ast",
+    "projectedValue": 15.5,
+    "playerMean": 15.399999999999999,
+    "percentageOver": 0.5271870032124149,
+    "percentageUnder": 0.47281299678758515,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 354,
+    "firstName": "Noah",
+    "lastName": "Clowney",
+    "stat": "Pts+Reb",
+    "projectedValue": 18.5,
+    "playerMean": 18.4,
+    "percentageOver": 0.5248608442544405,
+    "percentageUnder": 0.47513915574555954,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 358,
+    "firstName": "Noah",
+    "lastName": "Clowney",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 20.5,
+    "playerMean": 20.099999999999998,
+    "percentageOver": 0.5502097908860147,
+    "percentageUnder": 0.44979020911398526,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 366,
+    "firstName": "Noah",
+    "lastName": "Clowney",
+    "stat": "Steals",
+    "projectedValue": 0.5,
+    "playerMean": 0.73,
+    "percentageOver": 0.4819089900902024,
+    "percentageUnder": 0.5180910099097976,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 384,
+    "firstName": "Danny",
+    "lastName": "Wolf",
+    "stat": "Points",
+    "projectedValue": 10.5,
+    "playerMean": 9.3,
+    "percentageOver": 0.669881086782901,
+    "percentageUnder": 0.33011891321709896,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 387,
+    "firstName": "Danny",
+    "lastName": "Wolf",
+    "stat": "Pts+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 11.4,
+    "percentageOver": 0.6442356782144509,
+    "percentageUnder": 0.35576432178554906,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 388,
+    "firstName": "Danny",
+    "lastName": "Wolf",
+    "stat": "Pts+Reb",
+    "projectedValue": 15.5,
+    "playerMean": 13.700000000000001,
+    "percentageOver": 0.6986873174313657,
+    "percentageUnder": 0.3013126825686343,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 390,
+    "firstName": "Danny",
+    "lastName": "Wolf",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 17.5,
+    "playerMean": 15.8,
+    "percentageOver": 0.6778953895818715,
+    "percentageUnder": 0.32210461041812855,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 393,
+    "firstName": "Danny",
+    "lastName": "Wolf",
+    "stat": "Reb+Ast",
+    "projectedValue": 7.5,
+    "playerMean": 6.5,
+    "percentageOver": 0.6727577801305673,
+    "percentageUnder": 0.3272422198694327,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 396,
+    "firstName": "Danny",
+    "lastName": "Wolf",
+    "stat": "Rebounds",
+    "projectedValue": 4.5,
+    "playerMean": 4.4,
+    "percentageOver": 0.5511838085443159,
+    "percentageUnder": 0.4488161914556841,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 400,
+    "firstName": "Danny",
+    "lastName": "Wolf",
+    "stat": "Steals",
+    "projectedValue": 0.5,
+    "playerMean": 0.5,
+    "percentageOver": 0.6065306597126334,
+    "percentageUnder": 0.3934693402873666,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 415,
+    "firstName": "Bam",
+    "lastName": "Adebayo",
+    "stat": "Points",
+    "projectedValue": 16.5,
+    "playerMean": 18.3,
+    "percentageOver": 0.34898721936006044,
+    "percentageUnder": 0.6510127806399395,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 420,
+    "firstName": "Bam",
+    "lastName": "Adebayo",
+    "stat": "Pts+Ast",
+    "projectedValue": 19.5,
+    "playerMean": 21.3,
+    "percentageOver": 0.3598541618037783,
+    "percentageUnder": 0.6401458381962217,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 424,
+    "firstName": "Bam",
+    "lastName": "Adebayo",
+    "stat": "Pts+Reb",
+    "projectedValue": 25.5,
+    "playerMean": 27.6,
+    "percentageOver": 0.35469530471944527,
+    "percentageUnder": 0.6453046952805548,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 430,
+    "firstName": "Bam",
+    "lastName": "Adebayo",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 28.5,
+    "playerMean": 30.6,
+    "percentageOver": 0.3618613117715096,
+    "percentageUnder": 0.6381386882284904,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 433,
+    "firstName": "Bam",
+    "lastName": "Adebayo",
+    "stat": "Reb+Ast",
+    "projectedValue": 11.5,
+    "playerMean": 12.3,
+    "percentageOver": 0.4277503572822649,
+    "percentageUnder": 0.572249642717735,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 436,
+    "firstName": "Bam",
+    "lastName": "Adebayo",
+    "stat": "Rebounds",
+    "projectedValue": 9.0,
+    "playerMean": 9.3,
+    "percentageOver": 0.4797325830983802,
+    "percentageUnder": 0.5202674169016198,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 510,
+    "firstName": "Andrew",
+    "lastName": "Wiggins",
+    "stat": "Points",
+    "projectedValue": 14.5,
+    "playerMean": 15.0,
+    "percentageOver": 0.46565370894400987,
+    "percentageUnder": 0.5343462910559902,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 513,
+    "firstName": "Andrew",
+    "lastName": "Wiggins",
+    "stat": "Pts+Ast",
+    "projectedValue": 17.5,
+    "playerMean": 17.8,
+    "percentageOver": 0.48746487850481834,
+    "percentageUnder": 0.5125351214951817,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 516,
+    "firstName": "Andrew",
+    "lastName": "Wiggins",
+    "stat": "Pts+Reb",
+    "projectedValue": 19.5,
+    "playerMean": 19.4,
+    "percentageOver": 0.5242086983910728,
+    "percentageUnder": 0.47579130160892724,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 521,
+    "firstName": "Andrew",
+    "lastName": "Wiggins",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 22.5,
+    "playerMean": 22.2,
+    "percentageOver": 0.5394336766294104,
+    "percentageUnder": 0.46056632337058956,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 524,
+    "firstName": "Andrew",
+    "lastName": "Wiggins",
+    "stat": "Reb+Ast",
+    "projectedValue": 7.5,
+    "playerMean": 7.2,
+    "percentageOver": 0.568941238882152,
+    "percentageUnder": 0.431058761117848,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 551,
+    "firstName": "Norman",
+    "lastName": "Powell",
+    "stat": "Points",
+    "projectedValue": 23.5,
+    "playerMean": 24.0,
+    "percentageOver": 0.472849720547744,
+    "percentageUnder": 0.527150279452256,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 554,
+    "firstName": "Norman",
+    "lastName": "Powell",
+    "stat": "Pts+Ast",
+    "projectedValue": 26.5,
+    "playerMean": 26.5,
+    "percentageOver": 0.5129713775275532,
+    "percentageUnder": 0.4870286224724468,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 558,
+    "firstName": "Norman",
+    "lastName": "Powell",
+    "stat": "Pts+Reb",
+    "projectedValue": 27.5,
+    "playerMean": 27.5,
+    "percentageOver": 0.512731394757061,
+    "percentageUnder": 0.487268605242939,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 563,
+    "firstName": "Norman",
+    "lastName": "Powell",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 30.5,
+    "playerMean": 30.0,
+    "percentageOver": 0.5483515125779114,
+    "percentageUnder": 0.45164848742208863,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 565,
+    "firstName": "Norman",
+    "lastName": "Powell",
+    "stat": "Rebounds",
+    "projectedValue": 3.5,
+    "playerMean": 3.5,
+    "percentageOver": 0.536632667900785,
+    "percentageUnder": 0.463367332099215,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 569,
+    "firstName": "Norman",
+    "lastName": "Powell",
+    "stat": "Steals",
+    "projectedValue": 1.5,
+    "playerMean": 1.21,
+    "percentageOver": 0.6590159875400512,
+    "percentageUnder": 0.3409840124599488,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 573,
+    "firstName": "Davion",
+    "lastName": "Mitchell",
+    "stat": "Assists",
+    "projectedValue": 6.5,
+    "playerMean": 7.6,
+    "percentageOver": 0.3646210594970679,
+    "percentageUnder": 0.6353789405029321,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 584,
+    "firstName": "Davion",
+    "lastName": "Mitchell",
+    "stat": "Points",
+    "projectedValue": 8.5,
+    "playerMean": 9.8,
+    "percentageOver": 0.3557834509864625,
+    "percentageUnder": 0.6442165490135374,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 590,
+    "firstName": "Davion",
+    "lastName": "Mitchell",
+    "stat": "Pts+Ast",
+    "projectedValue": 15.5,
+    "playerMean": 17.4,
+    "percentageOver": 0.33609281838260047,
+    "percentageUnder": 0.6639071816173996,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 595,
+    "firstName": "Davion",
+    "lastName": "Mitchell",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 17.5,
+    "playerMean": 20.1,
+    "percentageOver": 0.2894901908053629,
+    "percentageUnder": 0.7105098091946371,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 618,
+    "firstName": "Jaime",
+    "lastName": "Jaquez Jr.",
+    "stat": "Points",
+    "projectedValue": 14.5,
+    "playerMean": 14.7,
+    "percentageOver": 0.49666444985192026,
+    "percentageUnder": 0.5033355501480797,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 622,
+    "firstName": "Jaime",
+    "lastName": "Jaquez Jr.",
+    "stat": "Pts+Ast",
+    "projectedValue": 19.5,
+    "playerMean": 19.5,
+    "percentageOver": 0.5151442533140624,
+    "percentageUnder": 0.48485574668593756,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 625,
+    "firstName": "Jaime",
+    "lastName": "Jaquez Jr.",
+    "stat": "Pts+Reb",
+    "projectedValue": 19.5,
+    "playerMean": 19.9,
+    "percentageOver": 0.4791623368266864,
+    "percentageUnder": 0.5208376631733136,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 628,
+    "firstName": "Jaime",
+    "lastName": "Jaquez Jr.",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 24.5,
+    "playerMean": 24.7,
+    "percentageOver": 0.49738512720069017,
+    "percentageUnder": 0.5026148727993098,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 681,
+    "firstName": "Duncan",
+    "lastName": "Robinson",
+    "stat": "Points",
+    "projectedValue": 10.5,
+    "playerMean": 10.5,
+    "percentageOver": 0.5207381284136754,
+    "percentageUnder": 0.4792618715863246,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 683,
+    "firstName": "Duncan",
+    "lastName": "Robinson",
+    "stat": "Pts+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 12.5,
+    "percentageOver": 0.5189752188790511,
+    "percentageUnder": 0.48102478112094893,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 695,
+    "firstName": "Duncan",
+    "lastName": "Robinson",
+    "stat": "Steals",
+    "projectedValue": 0.5,
+    "playerMean": 0.66,
+    "percentageOver": 0.5168513344916992,
+    "percentageUnder": 0.4831486655083008,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 705,
+    "firstName": "Javonte",
+    "lastName": "Green",
+    "stat": "Points",
+    "projectedValue": 7.5,
+    "playerMean": 5.2,
+    "percentageOver": 0.8449215899645284,
+    "percentageUnder": 0.15507841003547163,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 714,
+    "firstName": "Javonte",
+    "lastName": "Green",
+    "stat": "Steals",
+    "projectedValue": 1.5,
+    "playerMean": 0.85,
+    "percentageOver": 0.7907176241051443,
+    "percentageUnder": 0.20928237589485565,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 730,
+    "firstName": "Isaiah",
+    "lastName": "Stewart",
+    "stat": "Points",
+    "projectedValue": 10.5,
+    "playerMean": 8.4,
+    "percentageOver": 0.7743014528889084,
+    "percentageUnder": 0.2256985471110916,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 737,
+    "firstName": "Isaiah",
+    "lastName": "Stewart",
+    "stat": "Pts+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 9.700000000000001,
+    "percentageOver": 0.8191047637391685,
+    "percentageUnder": 0.18089523626083148,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 742,
+    "firstName": "Isaiah",
+    "lastName": "Stewart",
+    "stat": "Pts+Reb",
+    "projectedValue": 17.5,
+    "playerMean": 14.4,
+    "percentageOver": 0.7974989949784531,
+    "percentageUnder": 0.2025010050215469,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 747,
+    "firstName": "Isaiah",
+    "lastName": "Stewart",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 18.5,
+    "playerMean": 15.700000000000001,
+    "percentageOver": 0.7667639240956725,
+    "percentageUnder": 0.2332360759043275,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "LESS",
+      "MORE"
+    ]
+  },
+  {
+    "id": 750,
+    "firstName": "Isaiah",
+    "lastName": "Stewart",
+    "stat": "Reb+Ast",
+    "projectedValue": 7.5,
+    "playerMean": 7.3,
+    "percentageOver": 0.554106611839077,
+    "percentageUnder": 0.44589338816092305,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 762,
+    "firstName": "Cade",
+    "lastName": "Cunningham",
+    "stat": "Assists",
+    "projectedValue": 10.5,
+    "playerMean": 9.5,
+    "percentageOver": 0.645328434944862,
+    "percentageUnder": 0.35467156505513797,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 765,
+    "firstName": "Cade",
+    "lastName": "Cunningham",
+    "stat": "Blocks",
+    "projectedValue": 0.5,
+    "playerMean": 0.61,
+    "percentageOver": 0.5433508690744998,
+    "percentageUnder": 0.4566491309255002,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 776,
+    "firstName": "Cade",
+    "lastName": "Cunningham",
+    "stat": "Points",
+    "projectedValue": 26.5,
+    "playerMean": 25.9,
+    "percentageOver": 0.5597022674265795,
+    "percentageUnder": 0.44029773257342053,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 779,
+    "firstName": "Cade",
+    "lastName": "Cunningham",
+    "stat": "Pts+Ast",
+    "projectedValue": 37.5,
+    "playerMean": 35.4,
+    "percentageOver": 0.6470531137527683,
+    "percentageUnder": 0.3529468862472317,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 784,
+    "firstName": "Cade",
+    "lastName": "Cunningham",
+    "stat": "Pts+Reb",
+    "projectedValue": 33.5,
+    "playerMean": 32.0,
+    "percentageOver": 0.6150373563536133,
+    "percentageUnder": 0.38496264364638666,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "LESS",
+      "MORE"
+    ]
+  },
+  {
+    "id": 790,
+    "firstName": "Cade",
+    "lastName": "Cunningham",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 43.5,
+    "playerMean": 41.5,
+    "percentageOver": 0.6307169766487953,
+    "percentageUnder": 0.36928302335120466,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 791,
+    "firstName": "Cade",
+    "lastName": "Cunningham",
+    "stat": "Reb+Ast",
+    "projectedValue": 16.5,
+    "playerMean": 15.6,
+    "percentageOver": 0.6055825531279148,
+    "percentageUnder": 0.39441744687208524,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 816,
+    "firstName": "Jaden",
+    "lastName": "Ivey",
+    "stat": "Points",
+    "projectedValue": 10.5,
+    "playerMean": 8.2,
+    "percentageOver": 0.7955499878585648,
+    "percentageUnder": 0.2044500121414352,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 818,
+    "firstName": "Jaden",
+    "lastName": "Ivey",
+    "stat": "Pts+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 10.0,
+    "percentageOver": 0.7915564763948744,
+    "percentageUnder": 0.20844352360512564,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 838,
+    "firstName": "Jalen",
+    "lastName": "Duren",
+    "stat": "Points",
+    "projectedValue": 17.5,
+    "playerMean": 17.9,
+    "percentageOver": 0.4780326245332084,
+    "percentageUnder": 0.5219673754667916,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 843,
+    "firstName": "Jalen",
+    "lastName": "Duren",
+    "stat": "Pts+Ast",
+    "projectedValue": 19.5,
+    "playerMean": 19.7,
+    "percentageOver": 0.4970894083068039,
+    "percentageUnder": 0.5029105916931961,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 846,
+    "firstName": "Jalen",
+    "lastName": "Duren",
+    "stat": "Pts+Reb",
+    "projectedValue": 28.5,
+    "playerMean": 29.099999999999998,
+    "percentageOver": 0.46792794197761334,
+    "percentageUnder": 0.5320720580223867,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 851,
+    "firstName": "Jalen",
+    "lastName": "Duren",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 30.5,
+    "playerMean": 30.9,
+    "percentageOver": 0.4832691247828048,
+    "percentageUnder": 0.5167308752171952,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 852,
+    "firstName": "Jalen",
+    "lastName": "Duren",
+    "stat": "Reb+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 13.0,
+    "percentageOver": 0.46310474709968097,
+    "percentageUnder": 0.536895252900319,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 855,
+    "firstName": "Jalen",
+    "lastName": "Duren",
+    "stat": "Rebounds",
+    "projectedValue": 10.5,
+    "playerMean": 11.2,
+    "percentageOver": 0.43624168580161865,
+    "percentageUnder": 0.5637583141983813,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 866,
+    "firstName": "Ausar",
+    "lastName": "Thompson",
+    "stat": "Blocks",
+    "projectedValue": 0.5,
+    "playerMean": 0.63,
+    "percentageOver": 0.5325918010068973,
+    "percentageUnder": 0.4674081989931027,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 875,
+    "firstName": "Ausar",
+    "lastName": "Thompson",
+    "stat": "Points",
+    "projectedValue": 11.5,
+    "playerMean": 11.8,
+    "percentageOver": 0.4846507037240214,
+    "percentageUnder": 0.5153492962759786,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 879,
+    "firstName": "Ausar",
+    "lastName": "Thompson",
+    "stat": "Pts+Ast",
+    "projectedValue": 14.5,
+    "playerMean": 14.600000000000001,
+    "percentageOver": 0.5071090732700592,
+    "percentageUnder": 0.49289092672994084,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 882,
+    "firstName": "Ausar",
+    "lastName": "Thompson",
+    "stat": "Pts+Reb",
+    "projectedValue": 17.5,
+    "playerMean": 17.200000000000003,
+    "percentageOver": 0.5447734911071143,
+    "percentageUnder": 0.45522650889288574,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 888,
+    "firstName": "Ausar",
+    "lastName": "Thompson",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 19.5,
+    "playerMean": 20.000000000000004,
+    "percentageOver": 0.4702572668392394,
+    "percentageUnder": 0.5297427331607606,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 905,
+    "firstName": "Ron",
+    "lastName": "Holland II",
+    "stat": "Points",
+    "projectedValue": 9.5,
+    "playerMean": 7.1,
+    "percentageOver": 0.8202123650633035,
+    "percentageUnder": 0.17978763493669647,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 909,
+    "firstName": "Ron",
+    "lastName": "Holland II",
+    "stat": "Pts+Ast",
+    "projectedValue": 10.5,
+    "playerMean": 8.299999999999999,
+    "percentageOver": 0.7850345216291359,
+    "percentageUnder": 0.2149654783708641,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 964,
+    "firstName": "Joel",
+    "lastName": "Embiid",
+    "stat": "Assists",
+    "projectedValue": 3.5,
+    "playerMean": 3.7,
+    "percentageOver": 0.4941532441504184,
+    "percentageUnder": 0.5058467558495816,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 980,
+    "firstName": "Joel",
+    "lastName": "Embiid",
+    "stat": "Points",
+    "projectedValue": 25.5,
+    "playerMean": 24.1,
+    "percentageOver": 0.624100432496895,
+    "percentageUnder": 0.37589956750310505,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 984,
+    "firstName": "Joel",
+    "lastName": "Embiid",
+    "stat": "Pts+Ast",
+    "projectedValue": 29.5,
+    "playerMean": 27.8,
+    "percentageOver": 0.6370704019682931,
+    "percentageUnder": 0.3629295980317069,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 989,
+    "firstName": "Joel",
+    "lastName": "Embiid",
+    "stat": "Pts+Reb",
+    "projectedValue": 33.5,
+    "playerMean": 32.1,
+    "percentageOver": 0.6082061778979648,
+    "percentageUnder": 0.39179382210203517,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 995,
+    "firstName": "Joel",
+    "lastName": "Embiid",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 37.5,
+    "playerMean": 35.800000000000004,
+    "percentageOver": 0.6215842573546599,
+    "percentageUnder": 0.37841574264534006,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1001,
+    "firstName": "Joel",
+    "lastName": "Embiid",
+    "stat": "Rebounds",
+    "projectedValue": 8.5,
+    "playerMean": 8.0,
+    "percentageOver": 0.5925473414375915,
+    "percentageUnder": 0.40745265856240853,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 1002,
+    "firstName": "Joel",
+    "lastName": "Embiid",
+    "stat": "Rebounds",
+    "projectedValue": 7.5,
+    "playerMean": 8.0,
+    "percentageOver": 0.4529608094869946,
+    "percentageUnder": 0.5470391905130054,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "LESS"
+    ]
+  },
+  {
+    "id": 1013,
+    "firstName": "Tyrese",
+    "lastName": "Maxey",
+    "stat": "Assists",
+    "projectedValue": 6.5,
+    "playerMean": 7.4,
+    "percentageOver": 0.3919616694378639,
+    "percentageUnder": 0.6080383305621361,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1027,
+    "firstName": "Tyrese",
+    "lastName": "Maxey",
+    "stat": "Points",
+    "projectedValue": 27.5,
+    "playerMean": 28.7,
+    "percentageOver": 0.42304151776264814,
+    "percentageUnder": 0.5769584822373519,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1032,
+    "firstName": "Tyrese",
+    "lastName": "Maxey",
+    "stat": "Pts+Ast",
+    "projectedValue": 34.5,
+    "playerMean": 36.1,
+    "percentageOver": 0.40506544939415484,
+    "percentageUnder": 0.5949345506058452,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1037,
+    "firstName": "Tyrese",
+    "lastName": "Maxey",
+    "stat": "Pts+Reb",
+    "projectedValue": 31.5,
+    "playerMean": 32.9,
+    "percentageOver": 0.4143129367346404,
+    "percentageUnder": 0.5856870632653596,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1043,
+    "firstName": "Tyrese",
+    "lastName": "Maxey",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 38.5,
+    "playerMean": 40.3,
+    "percentageOver": 0.3977559523556011,
+    "percentageUnder": 0.6022440476443989,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1046,
+    "firstName": "Tyrese",
+    "lastName": "Maxey",
+    "stat": "Reb+Ast",
+    "projectedValue": 10.5,
+    "playerMean": 11.600000000000001,
+    "percentageOver": 0.39051084060998487,
+    "percentageUnder": 0.6094891593900151,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1052,
+    "firstName": "Tyrese",
+    "lastName": "Maxey",
+    "stat": "Steals",
+    "projectedValue": 1.5,
+    "playerMean": 1.55,
+    "percentageOver": 0.5412323332581949,
+    "percentageUnder": 0.45876766674180514,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 1068,
+    "firstName": "Paul",
+    "lastName": "George",
+    "stat": "Assists",
+    "projectedValue": 3.5,
+    "playerMean": 4.2,
+    "percentageOver": 0.3954033696023561,
+    "percentageUnder": 0.6045966303976439,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1082,
+    "firstName": "Paul",
+    "lastName": "George",
+    "stat": "Points",
+    "projectedValue": 15.5,
+    "playerMean": 16.1,
+    "percentageOver": 0.45685504051526155,
+    "percentageUnder": 0.5431449594847384,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1086,
+    "firstName": "Paul",
+    "lastName": "George",
+    "stat": "Pts+Ast",
+    "projectedValue": 19.5,
+    "playerMean": 20.3,
+    "percentageOver": 0.4438241803451486,
+    "percentageUnder": 0.5561758196548514,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1091,
+    "firstName": "Paul",
+    "lastName": "George",
+    "stat": "Pts+Reb",
+    "projectedValue": 21.5,
+    "playerMean": 21.5,
+    "percentageOver": 0.5144150239584022,
+    "percentageUnder": 0.4855849760415978,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1096,
+    "firstName": "Paul",
+    "lastName": "George",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 25.5,
+    "playerMean": 25.7,
+    "percentageOver": 0.4974341754508685,
+    "percentageUnder": 0.5025658245491316,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1098,
+    "firstName": "Paul",
+    "lastName": "George",
+    "stat": "Reb+Ast",
+    "projectedValue": 9.5,
+    "playerMean": 9.600000000000001,
+    "percentageOver": 0.5088620601463586,
+    "percentageUnder": 0.4911379398536414,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1101,
+    "firstName": "Paul",
+    "lastName": "George",
+    "stat": "Rebounds",
+    "projectedValue": 5.5,
+    "playerMean": 5.4,
+    "percentageOver": 0.546132104358199,
+    "percentageUnder": 0.45386789564180097,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "LESS"
+    ]
+  },
+  {
+    "id": 1113,
+    "firstName": "Jared",
+    "lastName": "McCain",
+    "stat": "Steals",
+    "projectedValue": 0.5,
+    "playerMean": 1.14,
+    "percentageOver": 0.31981902181630395,
+    "percentageUnder": 0.680180978183696,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 1118,
+    "firstName": "Adem",
+    "lastName": "Bona",
+    "stat": "Steals",
+    "projectedValue": 0.5,
+    "playerMean": 0.27,
+    "percentageOver": 0.7633794943368533,
+    "percentageUnder": 0.23662050566314674,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 1156,
+    "firstName": "P.J.",
+    "lastName": "Washington",
+    "stat": "3PT Made",
+    "projectedValue": 1.5,
+    "playerMean": 1.66,
+    "percentageOver": 0.5057696870700448,
+    "percentageUnder": 0.49423031292995523,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 1168,
+    "firstName": "P.J.",
+    "lastName": "Washington",
+    "stat": "Points",
+    "projectedValue": 13.5,
+    "playerMean": 15.0,
+    "percentageOver": 0.36321784227947546,
+    "percentageUnder": 0.6367821577205246,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1171,
+    "firstName": "P.J.",
+    "lastName": "Washington",
+    "stat": "Pts+Ast",
+    "projectedValue": 15.5,
+    "playerMean": 16.9,
+    "percentageOver": 0.38056846158047586,
+    "percentageUnder": 0.6194315384195241,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1174,
+    "firstName": "P.J.",
+    "lastName": "Washington",
+    "stat": "Pts+Reb",
+    "projectedValue": 21.5,
+    "playerMean": 22.0,
+    "percentageOver": 0.47164197846382394,
+    "percentageUnder": 0.5283580215361761,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1179,
+    "firstName": "P.J.",
+    "lastName": "Washington",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 22.5,
+    "playerMean": 23.9,
+    "percentageOver": 0.39950723227656365,
+    "percentageUnder": 0.6004927677234364,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1201,
+    "firstName": "Naji",
+    "lastName": "Marshall",
+    "stat": "Points",
+    "projectedValue": 12.5,
+    "playerMean": 13.6,
+    "percentageOver": 0.3989043639005763,
+    "percentageUnder": 0.6010956360994237,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1205,
+    "firstName": "Naji",
+    "lastName": "Marshall",
+    "stat": "Pts+Ast",
+    "projectedValue": 14.5,
+    "playerMean": 16.6,
+    "percentageOver": 0.31392849113223914,
+    "percentageUnder": 0.6860715088677609,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1209,
+    "firstName": "Naji",
+    "lastName": "Marshall",
+    "stat": "Pts+Reb",
+    "projectedValue": 16.5,
+    "playerMean": 18.8,
+    "percentageOver": 0.30772377420767755,
+    "percentageUnder": 0.6922762257923225,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1214,
+    "firstName": "Naji",
+    "lastName": "Marshall",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 19.5,
+    "playerMean": 21.8,
+    "percentageOver": 0.3209312119749018,
+    "percentageUnder": 0.6790687880250982,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1219,
+    "firstName": "Naji",
+    "lastName": "Marshall",
+    "stat": "Rebounds",
+    "projectedValue": 4.5,
+    "playerMean": 5.2,
+    "percentageOver": 0.40612800157256246,
+    "percentageUnder": 0.5938719984274375,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1260,
+    "firstName": "Anthony",
+    "lastName": "Davis",
+    "stat": "Blocks",
+    "projectedValue": 1.5,
+    "playerMean": 1.79,
+    "percentageOver": 0.46581887337104366,
+    "percentageUnder": 0.5341811266289563,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1271,
+    "firstName": "Anthony",
+    "lastName": "Davis",
+    "stat": "Points",
+    "projectedValue": 23.5,
+    "playerMean": 23.1,
+    "percentageOver": 0.5468620964478422,
+    "percentageUnder": 0.4531379035521578,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1275,
+    "firstName": "Anthony",
+    "lastName": "Davis",
+    "stat": "Pts+Ast",
+    "projectedValue": 25.5,
+    "playerMean": 26.200000000000003,
+    "percentageOver": 0.4583811484381454,
+    "percentageUnder": 0.5416188515618545,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1279,
+    "firstName": "Anthony",
+    "lastName": "Davis",
+    "stat": "Pts+Reb",
+    "projectedValue": 34.5,
+    "playerMean": 34.3,
+    "percentageOver": 0.5249748858896839,
+    "percentageUnder": 0.4750251141103161,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1285,
+    "firstName": "Anthony",
+    "lastName": "Davis",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 37.5,
+    "playerMean": 37.4,
+    "percentageOver": 0.5174166623173616,
+    "percentageUnder": 0.4825833376826384,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1287,
+    "firstName": "Anthony",
+    "lastName": "Davis",
+    "stat": "Reb+Ast",
+    "projectedValue": 14.5,
+    "playerMean": 14.299999999999999,
+    "percentageOver": 0.5386736439418551,
+    "percentageUnder": 0.46132635605814487,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1290,
+    "firstName": "Anthony",
+    "lastName": "Davis",
+    "stat": "Rebounds",
+    "projectedValue": 11.5,
+    "playerMean": 11.2,
+    "percentageOver": 0.5554054830831634,
+    "percentageUnder": 0.4445945169168366,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1316,
+    "firstName": "Brandon",
+    "lastName": "Williams",
+    "stat": "Points",
+    "projectedValue": 12.5,
+    "playerMean": 10.7,
+    "percentageOver": 0.72103354743796,
+    "percentageUnder": 0.27896645256204,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1319,
+    "firstName": "Brandon",
+    "lastName": "Williams",
+    "stat": "Pts+Ast",
+    "projectedValue": 18.5,
+    "playerMean": 14.399999999999999,
+    "percentageOver": 0.8592072546014993,
+    "percentageUnder": 0.14079274539850073,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1321,
+    "firstName": "Brandon",
+    "lastName": "Williams",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 21.5,
+    "playerMean": 16.7,
+    "percentageOver": 0.8776653923395697,
+    "percentageUnder": 0.12233460766043025,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1340,
+    "firstName": "Cooper",
+    "lastName": "Flagg",
+    "stat": "Points",
+    "projectedValue": 19.5,
+    "playerMean": 19.3,
+    "percentageOver": 0.5332918475993889,
+    "percentageUnder": 0.46670815240061114,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1345,
+    "firstName": "Cooper",
+    "lastName": "Flagg",
+    "stat": "Pts+Ast",
+    "projectedValue": 23.5,
+    "playerMean": 23.1,
+    "percentageOver": 0.5468620964478422,
+    "percentageUnder": 0.4531379035521578,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1350,
+    "firstName": "Cooper",
+    "lastName": "Flagg",
+    "stat": "Pts+Reb",
+    "projectedValue": 25.5,
+    "playerMean": 25.6,
+    "percentageOver": 0.5053205670236872,
+    "percentageUnder": 0.4946794329763128,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1355,
+    "firstName": "Cooper",
+    "lastName": "Flagg",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 29.5,
+    "playerMean": 29.400000000000002,
+    "percentageOver": 0.5196501847152442,
+    "percentageUnder": 0.48034981528475584,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1358,
+    "firstName": "Cooper",
+    "lastName": "Flagg",
+    "stat": "Reb+Ast",
+    "projectedValue": 10.0,
+    "playerMean": 10.1,
+    "percentageOver": 0.5091512051635562,
+    "percentageUnder": 0.49084879483644384,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1673,
+    "firstName": "Precious",
+    "lastName": "Achiuwa",
+    "stat": "Steals",
+    "projectedValue": 0.5,
+    "playerMean": 0.5,
+    "percentageOver": 0.6065306597126334,
+    "percentageUnder": 0.3934693402873666,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 1691,
+    "firstName": "DeMar",
+    "lastName": "DeRozan",
+    "stat": "Points",
+    "projectedValue": 18.5,
+    "playerMean": 19.7,
+    "percentageOver": 0.4071060117222414,
+    "percentageUnder": 0.5928939882777586,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1695,
+    "firstName": "DeMar",
+    "lastName": "DeRozan",
+    "stat": "Pts+Ast",
+    "projectedValue": 23.5,
+    "playerMean": 23.2,
+    "percentageOver": 0.5385778416066767,
+    "percentageUnder": 0.46142215839332335,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1699,
+    "firstName": "DeMar",
+    "lastName": "DeRozan",
+    "stat": "Pts+Reb",
+    "projectedValue": 22.5,
+    "playerMean": 23.099999999999998,
+    "percentageOver": 0.46399567639636247,
+    "percentageUnder": 0.5360043236036376,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1705,
+    "firstName": "DeMar",
+    "lastName": "DeRozan",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 26.5,
+    "playerMean": 26.599999999999998,
+    "percentageOver": 0.5052172392264452,
+    "percentageUnder": 0.49478276077355476,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1708,
+    "firstName": "DeMar",
+    "lastName": "DeRozan",
+    "stat": "Reb+Ast",
+    "projectedValue": 7.5,
+    "playerMean": 6.9,
+    "percentageOver": 0.613610541017651,
+    "percentageUnder": 0.386389458982349,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 1760,
+    "firstName": "Russell",
+    "lastName": "Westbrook",
+    "stat": "Assists",
+    "projectedValue": 7.0,
+    "playerMean": 6.8,
+    "percentageOver": 0.5636586489053259,
+    "percentageUnder": 0.4363413510946741,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1772,
+    "firstName": "Russell",
+    "lastName": "Westbrook",
+    "stat": "Points",
+    "projectedValue": 14.5,
+    "playerMean": 15.6,
+    "percentageOver": 0.40562282091790114,
+    "percentageUnder": 0.5943771790820989,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1777,
+    "firstName": "Russell",
+    "lastName": "Westbrook",
+    "stat": "Pts+Ast",
+    "projectedValue": 21.5,
+    "playerMean": 22.4,
+    "percentageOver": 0.4380932441962108,
+    "percentageUnder": 0.5619067558037891,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1782,
+    "firstName": "Russell",
+    "lastName": "Westbrook",
+    "stat": "Pts+Reb",
+    "projectedValue": 20.5,
+    "playerMean": 21.7,
+    "percentageOver": 0.4114917217030595,
+    "percentageUnder": 0.5885082782969405,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1786,
+    "firstName": "Russell",
+    "lastName": "Westbrook",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 27.5,
+    "playerMean": 28.5,
+    "percentageOver": 0.4376661949833612,
+    "percentageUnder": 0.5623338050166389,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1790,
+    "firstName": "Russell",
+    "lastName": "Westbrook",
+    "stat": "Reb+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 12.899999999999999,
+    "percentageOver": 0.4741398081893379,
+    "percentageUnder": 0.5258601918106621,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1813,
+    "firstName": "Keegan",
+    "lastName": "Murray",
+    "stat": "Points",
+    "projectedValue": 15.5,
+    "playerMean": 15.8,
+    "percentageOver": 0.48670506708846917,
+    "percentageUnder": 0.5132949329115308,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1817,
+    "firstName": "Keegan",
+    "lastName": "Murray",
+    "stat": "Pts+Ast",
+    "projectedValue": 16.5,
+    "playerMean": 17.400000000000002,
+    "percentageOver": 0.4297291505575154,
+    "percentageUnder": 0.5702708494424846,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1820,
+    "firstName": "Keegan",
+    "lastName": "Murray",
+    "stat": "Pts+Reb",
+    "projectedValue": 21.5,
+    "playerMean": 22.200000000000003,
+    "percentageOver": 0.45477697429439234,
+    "percentageUnder": 0.5452230257056077,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1826,
+    "firstName": "Keegan",
+    "lastName": "Murray",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 22.5,
+    "playerMean": 23.800000000000004,
+    "percentageOver": 0.4073785698567414,
+    "percentageUnder": 0.5926214301432586,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1861,
+    "firstName": "Nique",
+    "lastName": "Clifford",
+    "stat": "Points",
+    "projectedValue": 8.5,
+    "playerMean": 8.1,
+    "percentageOver": 0.5785915777174457,
+    "percentageUnder": 0.42140842228255426,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1871,
+    "firstName": "Nique",
+    "lastName": "Clifford",
+    "stat": "Rebounds",
+    "projectedValue": 3.5,
+    "playerMean": 3.8,
+    "percentageOver": 0.47348484325969664,
+    "percentageUnder": 0.5265151567403034,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1880,
+    "firstName": "Maxime",
+    "lastName": "Raynaud",
+    "stat": "Blocks",
+    "projectedValue": 0.5,
+    "playerMean": 0.88,
+    "percentageOver": 0.4147829116815813,
+    "percentageUnder": 0.5852170883184187,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1890,
+    "firstName": "Maxime",
+    "lastName": "Raynaud",
+    "stat": "Points",
+    "projectedValue": 13.5,
+    "playerMean": 14.1,
+    "percentageOver": 0.4538875745369304,
+    "percentageUnder": 0.5461124254630696,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1893,
+    "firstName": "Maxime",
+    "lastName": "Raynaud",
+    "stat": "Pts+Ast",
+    "projectedValue": 14.5,
+    "playerMean": 15.799999999999999,
+    "percentageOver": 0.3863581858785955,
+    "percentageUnder": 0.6136418141214045,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1895,
+    "firstName": "Maxime",
+    "lastName": "Raynaud",
+    "stat": "Pts+Reb",
+    "projectedValue": 21.5,
+    "playerMean": 21.7,
+    "percentageOver": 0.49721923808000373,
+    "percentageUnder": 0.5027807619199962,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1900,
+    "firstName": "Maxime",
+    "lastName": "Raynaud",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 23.5,
+    "playerMean": 23.4,
+    "percentageOver": 0.5220342508741029,
+    "percentageUnder": 0.47796574912589707,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "LESS",
+      "MORE"
+    ]
+  },
+  {
+    "id": 1902,
+    "firstName": "Maxime",
+    "lastName": "Raynaud",
+    "stat": "Reb+Ast",
+    "projectedValue": 9.5,
+    "playerMean": 9.299999999999999,
+    "percentageOver": 0.5479462585121229,
+    "percentageUnder": 0.45205374148787714,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1908,
+    "firstName": "Maxime",
+    "lastName": "Raynaud",
+    "stat": "Steals",
+    "projectedValue": 0.5,
+    "playerMean": 0.78,
+    "percentageOver": 0.4584060113052235,
+    "percentageUnder": 0.5415939886947765,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 1923,
+    "firstName": "Svi",
+    "lastName": "Mykhailiuk",
+    "stat": "Points",
+    "projectedValue": 10.5,
+    "playerMean": 9.3,
+    "percentageOver": 0.669881086782901,
+    "percentageUnder": 0.33011891321709896,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1929,
+    "firstName": "Svi",
+    "lastName": "Mykhailiuk",
+    "stat": "Pts+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 11.3,
+    "percentageOver": 0.6554650314152121,
+    "percentageUnder": 0.34453496858478794,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1955,
+    "firstName": "Taylor",
+    "lastName": "Hendricks",
+    "stat": "Points",
+    "projectedValue": 10.5,
+    "playerMean": 8.8,
+    "percentageOver": 0.7294233670956503,
+    "percentageUnder": 0.27057663290434975,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1959,
+    "firstName": "Taylor",
+    "lastName": "Hendricks",
+    "stat": "Pts+Ast",
+    "projectedValue": 11.5,
+    "playerMean": 9.700000000000001,
+    "percentageOver": 0.7303345281120228,
+    "percentageUnder": 0.2696654718879772,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1962,
+    "firstName": "Taylor",
+    "lastName": "Hendricks",
+    "stat": "Pts+Reb",
+    "projectedValue": 16.5,
+    "playerMean": 14.3,
+    "percentageOver": 0.7294183553264781,
+    "percentageUnder": 0.27058164467352186,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1966,
+    "firstName": "Taylor",
+    "lastName": "Hendricks",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 17.5,
+    "playerMean": 15.200000000000001,
+    "percentageOver": 0.7316923056133731,
+    "percentageUnder": 0.26830769438662694,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1992,
+    "firstName": "Brice",
+    "lastName": "Sensabaugh",
+    "stat": "Points",
+    "projectedValue": 19.5,
+    "playerMean": 11.7,
+    "percentageOver": 0.9831528247308238,
+    "percentageUnder": 0.01684717526917623,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1995,
+    "firstName": "Brice",
+    "lastName": "Sensabaugh",
+    "stat": "Pts+Ast",
+    "projectedValue": 21.5,
+    "playerMean": 13.299999999999999,
+    "percentageOver": 0.9823242303482203,
+    "percentageUnder": 0.01767576965177975,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 1997,
+    "firstName": "Brice",
+    "lastName": "Sensabaugh",
+    "stat": "Pts+Reb",
+    "projectedValue": 24.5,
+    "playerMean": 15.0,
+    "percentageOver": 0.9888352197284497,
+    "percentageUnder": 0.011164780271550323,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2002,
+    "firstName": "Brice",
+    "lastName": "Sensabaugh",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 26.5,
+    "playerMean": 16.6,
+    "percentageOver": 0.9884477602440951,
+    "percentageUnder": 0.011552239755904914,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2017,
+    "firstName": "Kyle",
+    "lastName": "Filipowski",
+    "stat": "3PT Made",
+    "projectedValue": 1.5,
+    "playerMean": 1.5,
+    "percentageOver": 0.5578254003710748,
+    "percentageUnder": 0.44217459962892525,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 2022,
+    "firstName": "Kyle",
+    "lastName": "Filipowski",
+    "stat": "Blocks",
+    "projectedValue": 0.5,
+    "playerMean": 0.52,
+    "percentageOver": 0.5945205479701944,
+    "percentageUnder": 0.4054794520298056,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2032,
+    "firstName": "Kyle",
+    "lastName": "Filipowski",
+    "stat": "Points",
+    "projectedValue": 16.5,
+    "playerMean": 14.5,
+    "percentageOver": 0.7112078153215005,
+    "percentageUnder": 0.28879218467849954,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2037,
+    "firstName": "Kyle",
+    "lastName": "Filipowski",
+    "stat": "Pts+Ast",
+    "projectedValue": 19.5,
+    "playerMean": 16.9,
+    "percentageOver": 0.7444094920392674,
+    "percentageUnder": 0.25559050796073257,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2042,
+    "firstName": "Kyle",
+    "lastName": "Filipowski",
+    "stat": "Pts+Reb",
+    "projectedValue": 26.5,
+    "playerMean": 23.9,
+    "percentageOver": 0.7109802338970826,
+    "percentageUnder": 0.28901976610291735,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2047,
+    "firstName": "Kyle",
+    "lastName": "Filipowski",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 29.5,
+    "playerMean": 26.299999999999997,
+    "percentageOver": 0.7401891806772343,
+    "percentageUnder": 0.25981081932276573,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2050,
+    "firstName": "Kyle",
+    "lastName": "Filipowski",
+    "stat": "Reb+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 11.8,
+    "percentageOver": 0.5988260236323862,
+    "percentageUnder": 0.40117397636761376,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2063,
+    "firstName": "Isaiah",
+    "lastName": "Collier",
+    "stat": "Assists",
+    "projectedValue": 9.0,
+    "playerMean": 7.1,
+    "percentageOver": 0.7992884123249264,
+    "percentageUnder": 0.20071158767507358,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2076,
+    "firstName": "Isaiah",
+    "lastName": "Collier",
+    "stat": "Points",
+    "projectedValue": 14.5,
+    "playerMean": 10.7,
+    "percentageOver": 0.8749647827831324,
+    "percentageUnder": 0.1250352172168676,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2081,
+    "firstName": "Isaiah",
+    "lastName": "Collier",
+    "stat": "Pts+Ast",
+    "projectedValue": 23.5,
+    "playerMean": 17.799999999999997,
+    "percentageOver": 0.9074069905955053,
+    "percentageUnder": 0.09259300940449466,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2086,
+    "firstName": "Isaiah",
+    "lastName": "Collier",
+    "stat": "Pts+Reb",
+    "projectedValue": 17.5,
+    "playerMean": 13.899999999999999,
+    "percentageOver": 0.8342520595469429,
+    "percentageUnder": 0.16574794045305707,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2091,
+    "firstName": "Isaiah",
+    "lastName": "Collier",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 27.5,
+    "playerMean": 21.0,
+    "percentageOver": 0.9174593091612032,
+    "percentageUnder": 0.08254069083879678,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2095,
+    "firstName": "Isaiah",
+    "lastName": "Collier",
+    "stat": "Reb+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 10.3,
+    "percentageOver": 0.7623047001815819,
+    "percentageUnder": 0.23769529981841808,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2097,
+    "firstName": "Isaiah",
+    "lastName": "Collier",
+    "stat": "Rebounds",
+    "projectedValue": 3.5,
+    "playerMean": 3.2,
+    "percentageOver": 0.6025197244055571,
+    "percentageUnder": 0.3974802755944429,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2116,
+    "firstName": "John",
+    "lastName": "Collins",
+    "stat": "Points",
+    "projectedValue": 13.5,
+    "playerMean": 13.3,
+    "percentageOver": 0.540100201545873,
+    "percentageUnder": 0.459899798454127,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2119,
+    "firstName": "John",
+    "lastName": "Collins",
+    "stat": "Pts+Ast",
+    "projectedValue": 15.5,
+    "playerMean": 14.4,
+    "percentageOver": 0.6293011345475819,
+    "percentageUnder": 0.37069886545241815,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2121,
+    "firstName": "John",
+    "lastName": "Collins",
+    "stat": "Pts+Reb",
+    "projectedValue": 19.5,
+    "playerMean": 19.200000000000003,
+    "percentageOver": 0.5423891220634124,
+    "percentageUnder": 0.4576108779365876,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2126,
+    "firstName": "John",
+    "lastName": "Collins",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 21.5,
+    "playerMean": 20.300000000000004,
+    "percentageOver": 0.6181448620755134,
+    "percentageUnder": 0.38185513792448655,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2131,
+    "firstName": "John",
+    "lastName": "Collins",
+    "stat": "Rebounds",
+    "projectedValue": 6.5,
+    "playerMean": 5.9,
+    "percentageOver": 0.6223605983423859,
+    "percentageUnder": 0.3776394016576141,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 2146,
+    "firstName": "James",
+    "lastName": "Harden",
+    "stat": "Assists",
+    "projectedValue": 8.0,
+    "playerMean": 8.0,
+    "percentageOver": 0.5264455128926299,
+    "percentageUnder": 0.47355448710737014,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2160,
+    "firstName": "James",
+    "lastName": "Harden",
+    "stat": "Points",
+    "projectedValue": 26.5,
+    "playerMean": 23.5,
+    "percentageOver": 0.7389708206816474,
+    "percentageUnder": 0.26102917931835257,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2165,
+    "firstName": "James",
+    "lastName": "Harden",
+    "stat": "Pts+Ast",
+    "projectedValue": 35.5,
+    "playerMean": 31.5,
+    "percentageOver": 0.7665569164308078,
+    "percentageUnder": 0.2334430835691922,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2169,
+    "firstName": "James",
+    "lastName": "Harden",
+    "stat": "Pts+Reb",
+    "projectedValue": 32.5,
+    "playerMean": 28.7,
+    "percentageOver": 0.7657873021061903,
+    "percentageUnder": 0.23421269789380972,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2174,
+    "firstName": "James",
+    "lastName": "Harden",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 40.5,
+    "playerMean": 36.7,
+    "percentageOver": 0.7402177313168905,
+    "percentageUnder": 0.2597822686831095,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2177,
+    "firstName": "James",
+    "lastName": "Harden",
+    "stat": "Reb+Ast",
+    "projectedValue": 13.5,
+    "playerMean": 13.2,
+    "percentageOver": 0.551067783317111,
+    "percentageUnder": 0.44893221668288896,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2223,
+    "firstName": "Brook",
+    "lastName": "Lopez",
+    "stat": "Points",
+    "projectedValue": 11.5,
+    "playerMean": 9.5,
+    "percentageOver": 0.7519896095560178,
+    "percentageUnder": 0.2480103904439822,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2227,
+    "firstName": "Brook",
+    "lastName": "Lopez",
+    "stat": "Pts+Ast",
+    "projectedValue": 13.5,
+    "playerMean": 10.6,
+    "percentageOver": 0.8169121327353657,
+    "percentageUnder": 0.18308786726463433,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2230,
+    "firstName": "Brook",
+    "lastName": "Lopez",
+    "stat": "Pts+Reb",
+    "projectedValue": 17.5,
+    "playerMean": 13.3,
+    "percentageOver": 0.8732146422019222,
+    "percentageUnder": 0.12678535779807776,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2235,
+    "firstName": "Brook",
+    "lastName": "Lopez",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 19.5,
+    "playerMean": 14.4,
+    "percentageOver": 0.9059756197894919,
+    "percentageUnder": 0.09402438021050807,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2239,
+    "firstName": "Brook",
+    "lastName": "Lopez",
+    "stat": "Reb+Ast",
+    "projectedValue": 7.5,
+    "playerMean": 4.9,
+    "percentageOver": 0.8768619041247654,
+    "percentageUnder": 0.12313809587523461,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2242,
+    "firstName": "Brook",
+    "lastName": "Lopez",
+    "stat": "Rebounds",
+    "projectedValue": 5.5,
+    "playerMean": 3.8,
+    "percentageOver": 0.8155562560569335,
+    "percentageUnder": 0.1844437439430665,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2246,
+    "firstName": "Brook",
+    "lastName": "Lopez",
+    "stat": "Steals",
+    "projectedValue": 0.5,
+    "playerMean": 0.5,
+    "percentageOver": 0.6065306597126334,
+    "percentageUnder": 0.3934693402873666,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 2253,
+    "firstName": "Kris",
+    "lastName": "Dunn",
+    "stat": "Assists",
+    "projectedValue": 3.5,
+    "playerMean": 3.4,
+    "percentageOver": 0.5583570552828954,
+    "percentageUnder": 0.44164294471710464,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2264,
+    "firstName": "Kris",
+    "lastName": "Dunn",
+    "stat": "Points",
+    "projectedValue": 8.5,
+    "playerMean": 7.7,
+    "percentageOver": 0.6343434154496824,
+    "percentageUnder": 0.3656565845503176,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2271,
+    "firstName": "Kris",
+    "lastName": "Dunn",
+    "stat": "Pts+Ast",
+    "projectedValue": 12.5,
+    "playerMean": 11.1,
+    "percentageOver": 0.6777055833091238,
+    "percentageUnder": 0.3222944166908762,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2284,
+    "firstName": "Kris",
+    "lastName": "Dunn",
+    "stat": "Reb+Ast",
+    "projectedValue": 7.5,
+    "playerMean": 6.699999999999999,
+    "percentageOver": 0.6433169685872226,
+    "percentageUnder": 0.35668303141277735,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2285,
+    "firstName": "Kris",
+    "lastName": "Dunn",
+    "stat": "Rebounds",
+    "projectedValue": 3.5,
+    "playerMean": 3.3,
+    "percentageOver": 0.580338197474811,
+    "percentageUnder": 0.41966180252518903,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2295,
+    "firstName": "Nicolas",
+    "lastName": "Batum",
+    "stat": "3PT Made",
+    "projectedValue": 1.5,
+    "playerMean": 1.37,
+    "percentageOver": 0.6022334941401367,
+    "percentageUnder": 0.3977665058598633,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2298,
+    "firstName": "Nicolas",
+    "lastName": "Batum",
+    "stat": "Blocks",
+    "projectedValue": 0.5,
+    "playerMean": 0.5,
+    "percentageOver": 0.6065306597126334,
+    "percentageUnder": 0.3934693402873666,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2313,
+    "firstName": "Nicolas",
+    "lastName": "Batum",
+    "stat": "Steals",
+    "projectedValue": 0.5,
+    "playerMean": 0.81,
+    "percentageOver": 0.4448580662229411,
+    "percentageUnder": 0.5551419337770589,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE"
+    ]
+  },
+  {
+    "id": 2315,
+    "firstName": "Kawhi",
+    "lastName": "Leonard",
+    "stat": "3PT Made",
+    "projectedValue": 2.5,
+    "playerMean": 2.64,
+    "percentageOver": 0.5084347733353396,
+    "percentageUnder": 0.4915652266646604,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2321,
+    "firstName": "Kawhi",
+    "lastName": "Leonard",
+    "stat": "Blocks",
+    "projectedValue": 0.5,
+    "playerMean": 0.65,
+    "percentageOver": 0.5220457767610162,
+    "percentageUnder": 0.47795422323898384,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2331,
+    "firstName": "Kawhi",
+    "lastName": "Leonard",
+    "stat": "Points",
+    "projectedValue": 29.5,
+    "playerMean": 25.7,
+    "percentageOver": 0.7776856446925566,
+    "percentageUnder": 0.22231435530744337,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2335,
+    "firstName": "Kawhi",
+    "lastName": "Leonard",
+    "stat": "Pts+Ast",
+    "projectedValue": 33.5,
+    "playerMean": 29.099999999999998,
+    "percentageOver": 0.7957582789803249,
+    "percentageUnder": 0.20424172101967508,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2340,
+    "firstName": "Kawhi",
+    "lastName": "Leonard",
+    "stat": "Pts+Reb",
+    "projectedValue": 37.5,
+    "playerMean": 32.2,
+    "percentageOver": 0.8260575253108534,
+    "percentageUnder": 0.1739424746891466,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2344,
+    "firstName": "Kawhi",
+    "lastName": "Leonard",
+    "stat": "Pts+Reb+Ast",
+    "projectedValue": 41.5,
+    "playerMean": 35.6,
+    "percentageOver": 0.8390467487500015,
+    "percentageUnder": 0.16095325124999849,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  },
+  {
+    "id": 2348,
+    "firstName": "Kawhi",
+    "lastName": "Leonard",
+    "stat": "Rebounds",
+    "projectedValue": 7.5,
+    "playerMean": 6.5,
+    "percentageOver": 0.6727577801305673,
+    "percentageUnder": 0.3272422198694327,
+    "type": "REGULAR",
+    "allowedOptions": [
+      "MORE",
+      "LESS"
+    ]
+  }
+]
