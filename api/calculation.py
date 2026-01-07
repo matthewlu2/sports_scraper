@@ -20,6 +20,16 @@ def calculate_percentage(filename):
         "Turnovers": ["Turnovers"],
     }
 
+    threshold_mapping = {
+        "EDGE_3": 0.9285,
+        "EDGE_2": 0.8621,
+        "EDGE_1": 0.6743,
+        "REGULAR": 0.5379,
+        "MINI_BOOSTED": 0.4405,
+        "BOOSTED": 0.3021,
+        "SUPER_BOOSTED": 0.1658
+    }
+
     player_list = scrape_betr()
 
     try:
@@ -31,15 +41,16 @@ def calculate_percentage(filename):
 
     results = []
     for player in player_list:
-        if player["type"] == "REGULAR" and player["stat"] in stat_mapping:           
+        if player["type"] in threshold_mapping and player["stat"] in stat_mapping:           
             name = player["name"]
             if name in df.index:
                 prop = player["projectedValue"]
                 player_mean = 0.0
                 for stat in stat_mapping[player["stat"]]:
                     player_mean += df.loc[name, stat]
-                p_under = round(stat_poisson(prop, player_mean), 2)
-                p_over = round(1 - p_under, 2)
+                p_under = round(stat_poisson(prop, player_mean), 5)
+                p_over = round(1 - p_under, 5)
+                threshold = threshold_mapping.get(player["type"])
                 results.append({
                     "id": player["id"],
                     "name": name,
@@ -48,7 +59,7 @@ def calculate_percentage(filename):
                     "playerMean": round(player_mean, 2),
                     "percentageOver": p_over,
                     "percentageUnder": p_under,
-                    "percentOverThreshold": round(max(p_over - 0.55, p_under - 0.55), 2),
+                    "percentOverThreshold": round(max(p_over - threshold, p_under - threshold), 5),
                     "type": player["type"],
                     "allowedOptions": player["allowedOptions"]
                 })
