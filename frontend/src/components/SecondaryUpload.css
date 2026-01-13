@@ -1,0 +1,35 @@
+#secondaryInput {
+  display: none;
+}
+
+.secondary-container {
+  width: fit-content;
+}
+
+.secondary-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.secondary-label:hover {
+  background-color: #6c6c6c30;
+}
+
+.secondary-label:active {
+  transform: scale(0.97);
+}
+
+.secondary-icon {
+  width: 1.2rem;
+}

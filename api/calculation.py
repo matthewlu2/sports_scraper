@@ -1,10 +1,8 @@
 from scipy.stats import poisson
 from scraper import scrape_betr
 import pandas as pd
-import json
 
-
-def calculate_percentage(filename):
+def calculate_percentage(filename, selected_teams=None, secondary_filename=None):
     stat_mapping = {
         "Pts+Reb": ["Points", "Rebounds"],
         "Pts+Reb+Ast": ["PRA"],
@@ -31,19 +29,26 @@ def calculate_percentage(filename):
     }
 
     player_list = scrape_betr()
-
+    
     try:
         df = pd.read_csv(filename)
-        df = df[df["Scenario"] == "Default"]
         df = df.set_index('Player')
     except(Exception):
         raise Exception("Error reading CSV file.")
+    
+    if secondary_filename:
+        try:
+            df_secondary = pd.read_csv(secondary_filename)
+            df_secondary = df_secondary.set_index('Player')
+        except(Exception):
+            raise Exception("Error reading secondary CSV file.")
 
     results = []
     for player in player_list:
         if player["type"] in threshold_mapping and player["stat"] in stat_mapping:           
             name = player["name"]
             if name in df.index:
+                team = df.loc[name, "Team"]
                 prop = player["projectedValue"]
                 player_mean = 0.0
                 for stat in stat_mapping[player["stat"]]:
@@ -51,20 +56,35 @@ def calculate_percentage(filename):
                 p_under = round(stat_poisson(prop, player_mean), 5)
                 p_over = round(1 - p_under, 5)
                 threshold = threshold_mapping.get(player["type"])
+                allowed_options = player.get("allowedOptions", [])
+                if selected_teams and team in selected_teams:
+                    if secondary_filename and name in df_secondary.index and "LESS" in allowed_options: 
+                        player_mean = 0.0
+                        for stat in stat_mapping[player["stat"]]:
+                            player_mean += df_secondary.loc[name, stat]
+                        p_under = round(stat_poisson(prop, player_mean), 5)
+                        p_over = round(1 - p_under, 5)
+                    if ("LESS" in allowed_options and secondary_filename is None) or ("LESS" in allowed_options and secondary_filename and name not in df_secondary.index):
+                        continue
+                if "MORE" not in allowed_options and p_over > p_under:
+                    continue
+                if "LESS" not in allowed_options and p_under > p_over:
+                    continue
+                option = "OVER" if p_over > p_under else "UNDER"
                 results.append({
                     "id": player["id"],
                     "name": name,
+                    "team": team,
                     "stat": player["stat"],
                     "projectedValue": player["projectedValue"],
                     "playerMean": round(player_mean, 2),
                     "percentageOver": p_over,
                     "percentageUnder": p_under,
                     "percentOverThreshold": round(max(p_over - threshold, p_under - threshold), 5),
+                    "odds": convert_odds(max(p_over, p_under)),
                     "type": player["type"],
-                    "allowedOptions": player["allowedOptions"]
+                    "option": option
                 })
-    # with open("player_calcs.json", "w") as f:
-    #     json.dump(results, f, indent=2)
     return results
 
 def stat_poisson(prop, player_mean):
@@ -76,3 +96,13 @@ def stat_poisson(prop, player_mean):
 
         denominator = cdf_prop_minus_1 + (1 - cdf_prop_minus_1 - pmf_prop)
         return cdf_prop_minus_1 / denominator
+    
+def convert_odds(percentage):
+    if percentage == 0 or percentage == 1:
+        return "NULL"
+    elif percentage > 0.5:
+        odds = percentage / (1 - percentage) * 100
+        return f"-{int(round(odds))}"
+    else:
+        odds = (1 - percentage) / percentage * 100
+        return f"+{int(round(odds))}"

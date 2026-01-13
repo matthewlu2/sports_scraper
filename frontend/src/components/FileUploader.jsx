@@ -5,19 +5,23 @@ import './FileUploader.css';
 import upload from './arrow-up-from-bracket-solid-full.svg';
 import refresh from './arrows-rotate-solid-full.svg'
 import { useState } from "react";
+import TeamUnderRemover from "./TeamUnderRemover";
+import SecondaryUpload from "./SecondaryUpload";
 
 
 const FileUploader = ({data, setData, status, setStatus}) => {
   const columns = [
     { field: 'name', headerName: 'Name', flex: 1, width: 150 },
+    { field: 'team', headerName: 'Team', flex: 1, width: 50 },
     { field: 'stat', headerName: 'Stat', flex: 1, width: 150 },
-    { field: 'projectedValue', headerName: 'Projected Value', flex: 1, width: 150 },
-    { field: 'playerMean', headerName: 'Player Mean', flex: 1, width: 150 },
-    { field: 'percentageOver', headerName: 'Percentage Over', flex: 1, width: 150 },
-    { field: 'percentageUnder', headerName: 'Percentage Under', flex: 1, width: 150 },
-    { field: 'percentOverThreshold', headerName: 'Percent Over Threshold', flex: 1, width: 150 },
+    { field: 'projectedValue', headerName: 'Line', flex: 1, width: 150 },
+    { field: 'playerMean', headerName: 'Proj', flex: 1, width: 150 },
+    { field: 'percentageOver', headerName: '% Over', flex: 1, width: 150 },
+    { field: 'percentageUnder', headerName: '% Under', flex: 1, width: 150 },
+    { field: 'percentOverThreshold', headerName: '% > Threshold', flex: 1, width: 150 },
+    { field: 'odds', headerName: 'Fair Value', flex: 1, width: 150 },
     { field: 'type', headerName: 'Type', flex: 1, width: 150 },
-    { field: 'allowedOptions', headerName: 'Allowed Options', flex: 1, width: 300 },
+    { field: 'option', headerName: 'Option', flex: 1, width: 300 },
   ];
 
   const paginationModel = {page: 0, pageSize: 50};
@@ -80,7 +84,11 @@ const FileUploader = ({data, setData, status, setStatus}) => {
             disableRowSelectionOnClick
             sx={{ border: 0 }}
           />
-          <img src = {refresh} onClick={fetchData} className={`refresh ${spinning ? "spin" : ""}`} alt="refresh"/>
+          <div className="bottom-left">
+            <img src = {refresh} onClick={fetchData} className={`refresh_upload ${spinning ? "spin" : ""}`} alt="refresh"/>
+            <TeamUnderRemover setData={setData} />
+            <SecondaryUpload setData={setData} />
+          </div>
         </Paper>
       )}
     </div>
