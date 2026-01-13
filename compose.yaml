@@ -1,0 +1,24 @@
+services:
+  api:
+    build:
+      context: ./api
+    container_name: flask-api
+    ports:
+      - "5001:5001"
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: react-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
