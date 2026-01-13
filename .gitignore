@@ -1,6 +1,6 @@
 .DS_Store
 __pycache__/
-uploads/
+# uploads/
 node_modules/
 testing/
 venv/
