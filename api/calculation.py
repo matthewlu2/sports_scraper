@@ -45,39 +45,60 @@ def calculate_percentage(filename, selected_teams=None, secondary_filename=None)
 
     results = []
     for player in player_list:
-        if player["type"] in threshold_mapping and player["stat"] in stat_mapping:           
-            name = player["name"]
+        if player["type"] in threshold_mapping and player["stat"] in stat_mapping:  
+            name = player["name"] # Player Name
+            #If player exists in dataframe (uploaded projections)
             if name in df.index:
-                team = df.loc[name, "Team"]
-                prop = player["projectedValue"]
-                player_mean = 0.0
+                team = df.loc[name, "Team"] # Player Team
+                prop = player["projectedValue"] # Player prop (from Betr)
+                player_mean = 0.0 # Player mean calculation
+                # Player mean calculation based on stat mapping
                 for stat in stat_mapping[player["stat"]]:
                     player_mean += df.loc[name, stat]
+                # Initial probability calculations
+                mean = player_mean
                 p_under = round(stat_poisson(prop, player_mean), 5)
                 p_over = round(1 - p_under, 5)
-                threshold = threshold_mapping.get(player["type"])
-                allowed_options = player.get("allowedOptions", [])
+                option = "OVER" if p_over > p_under else "UNDER"
+                # If player mean is 0, skip calculations
+                if player_mean == 0:
+                    continue
+                threshold = threshold_mapping.get(player["type"]) # Get threshold based on bet type
+                allowed_options = player.get("allowedOptions", []) # Get allowed options (MORE/LESS, or Both)
+                # If selected teams are provided from frontend.
                 if selected_teams and team in selected_teams:
+                    # If a second file exists and player is in second file and "LESS" is an allowed option
                     if secondary_filename and name in df_secondary.index and "LESS" in allowed_options: 
-                        player_mean = 0.0
+                        second_player_mean = 0.0
+                        # Player second mean calculation based on stat mapping
                         for stat in stat_mapping[player["stat"]]:
-                            player_mean += df_secondary.loc[name, stat]
-                        p_under = round(stat_poisson(prop, player_mean), 5)
-                        p_over = round(1 - p_under, 5)
+                            second_player_mean += df_secondary.loc[name, stat]
+                        if second_player_mean == 0:
+                            continue
+                        if option == "OVER":
+                            if player_mean > second_player_mean:
+                                mean = second_player_mean
+                                p_under = round(stat_poisson(prop, second_player_mean), 5)
+                                p_over = round(1 - p_under, 5)
+                        if option == "UNDER":
+                            if player_mean < second_player_mean:
+                                mean = second_player_mean
+                                p_under = round(stat_poisson(prop, second_player_mean), 5)
+                                p_over = round(1 - p_under, 5)
+                    # If no second file but still LESS is allowed, or if second file exists but player not in it (and LESS is allowed), skip player
                     if ("LESS" in allowed_options and secondary_filename is None) or ("LESS" in allowed_options and secondary_filename and name not in df_secondary.index):
                         continue
                 if "MORE" not in allowed_options and p_over > p_under:
                     continue
                 if "LESS" not in allowed_options and p_under > p_over:
                     continue
-                option = "OVER" if p_over > p_under else "UNDER"
                 results.append({
                     "id": player["id"],
                     "name": name,
                     "team": team,
                     "stat": player["stat"],
                     "projectedValue": player["projectedValue"],
-                    "playerMean": round(player_mean, 2),
+                    "playerMean": round(mean, 2),
                     "percentageOver": p_over,
                     "percentageUnder": p_under,
                     "percentOverThreshold": round(max(p_over - threshold, p_under - threshold), 5),
