@@ -59,7 +59,6 @@ def calculate_percentage(filename, selected_teams=None, secondary_filename=None)
                 mean = player_mean
                 p_under = round(stat_poisson(prop, player_mean), 5)
                 p_over = round(1 - p_under, 5)
-                option = "OVER" if p_over > p_under else "UNDER"
                 # If player mean is 0, skip calculations
                 if player_mean == 0:
                     continue
@@ -75,22 +74,25 @@ def calculate_percentage(filename, selected_teams=None, secondary_filename=None)
                             second_player_mean += df_secondary.loc[name, stat]
                         if second_player_mean == 0:
                             continue
-                        if option == "OVER":
+                        if player_mean > prop and second_player_mean > prop:
                             if player_mean > second_player_mean:
                                 mean = second_player_mean
                                 p_under = round(stat_poisson(prop, second_player_mean), 5)
                                 p_over = round(1 - p_under, 5)
-                        if option == "UNDER":
+                        elif player_mean < prop and second_player_mean < prop:
                             if player_mean < second_player_mean:
                                 mean = second_player_mean
                                 p_under = round(stat_poisson(prop, second_player_mean), 5)
                                 p_over = round(1 - p_under, 5)
+                        else:
+                            continue
                     # If no second file but still LESS is allowed, or if second file exists but player not in it (and LESS is allowed), skip player
                     if ("LESS" in allowed_options and secondary_filename is None) or ("LESS" in allowed_options and secondary_filename and name not in df_secondary.index):
                         continue
-                if "MORE" not in allowed_options and p_over > p_under:
+                option = "OVER" if p_over > p_under else "UNDER"
+                if "MORE" not in allowed_options and option == "OVER":
                     continue
-                if "LESS" not in allowed_options and p_under > p_over:
+                if "LESS" not in allowed_options and option == "UNDER":
                     continue
                 results.append({
                     "id": player["id"],
