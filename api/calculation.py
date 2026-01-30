@@ -66,8 +66,10 @@ def calculate_percentage(filename, selected_teams=None, secondary_filename=None)
                 allowed_options = player.get("allowedOptions", []) # Get allowed options (MORE/LESS, or Both)
                 # If selected teams are provided from frontend.
                 if selected_teams and team in selected_teams:
-                    # If a second file exists and player is in second file and "LESS" is an allowed option
-                    if secondary_filename and name in df_secondary.index and "LESS" in allowed_options: 
+                    if not secondary_filename and "LESS" in allowed_options:
+                        continue
+                    # If a second file exists and player is in second file
+                    if secondary_filename and name in df_secondary.index:
                         second_player_mean = 0.0
                         # Player second mean calculation based on stat mapping
                         for stat in stat_mapping[player["stat"]]:
@@ -87,8 +89,8 @@ def calculate_percentage(filename, selected_teams=None, secondary_filename=None)
                         else:
                             continue
                     # If no second file but still LESS is allowed, or if second file exists but player not in it (and LESS is allowed), skip player
-                    if ("LESS" in allowed_options and secondary_filename is None) or ("LESS" in allowed_options and secondary_filename and name not in df_secondary.index):
-                        continue
+                    # if ("LESS" in allowed_options and secondary_filename is None) or ("LESS" in allowed_options and secondary_filename and name not in df_secondary.index):
+                    #     continue
                 option = "OVER" if p_over > p_under else "UNDER"
                 if "MORE" not in allowed_options and option == "OVER":
                     continue
