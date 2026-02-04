@@ -5,6 +5,7 @@ from calculation import calculate_percentage
 app = Flask(__name__)
 
 TEAMS_LIST = []
+REMOVE_LIST = []
 LAST_FILE = ""
 SECONDARY_FILE = None
 
@@ -54,7 +55,7 @@ def upload_secondary_route():
 def get_calculations():
     if not LAST_FILE:
         return jsonify({"status": "error", "message": "No file uploaded yet."}), 400
-    data = calculate_percentage(LAST_FILE, TEAMS_LIST, SECONDARY_FILE)
+    data = calculate_percentage(LAST_FILE, TEAMS_LIST, SECONDARY_FILE, REMOVE_LIST)
     return jsonify({"status": "success", "data": data, "message": "Data refreshed successfully."})
 
 @app.route("/update_teams", methods=["POST"])
@@ -62,6 +63,13 @@ def update_teams():
     global TEAMS_LIST
     TEAMS_LIST = request.json.get("selected_teams", [])
     return jsonify({"status": "success", "message": "Teams updated successfully."})
+
+@app.route("/remove_teams", methods=["POST"])
+def remove_teams():
+    global REMOVE_LIST
+    REMOVE_LIST = request.json.get("removed_teams", [])
+    return jsonify({"status": "success", "message": "Teams removed successfully."}
+)
 
 
 if __name__ == '__main__':

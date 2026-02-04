@@ -7,6 +7,7 @@ import refresh from './arrows-rotate-solid-full.svg'
 import { useState } from "react";
 import TeamUnderRemover from "./TeamUnderRemover";
 import SecondaryUpload from "./SecondaryUpload";
+import TeamRemover from "./TeamRemover";
 
 
 const FileUploader = ({data, setData, status, setStatus}) => {
@@ -88,6 +89,7 @@ const FileUploader = ({data, setData, status, setStatus}) => {
             <img src = {refresh} onClick={fetchData} className={`refresh_upload ${spinning ? "spin" : ""}`} alt="refresh"/>
             <TeamUnderRemover setData={setData} />
             <SecondaryUpload setData={setData} />
+            <TeamRemover setData={setData} />
           </div>
         </Paper>
       )}

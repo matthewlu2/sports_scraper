@@ -2,7 +2,7 @@ from scipy.stats import poisson
 from scraper import scrape_betr
 import pandas as pd
 
-def calculate_percentage(filename, selected_teams=None, secondary_filename=None):
+def calculate_percentage(filename, selected_teams=None, secondary_filename=None, remove_teams=None):
     stat_mapping = {
         "Pts+Reb": ["Points", "Rebounds"],
         "Pts+Reb+Ast": ["PRA"],
@@ -65,6 +65,8 @@ def calculate_percentage(filename, selected_teams=None, secondary_filename=None)
                 threshold = threshold_mapping.get(player["type"]) # Get threshold based on bet type
                 allowed_options = player.get("allowedOptions", []) # Get allowed options (MORE/LESS, or Both)
                 # If selected teams are provided from frontend.
+                if remove_teams and team in remove_teams:
+                    continue
                 if selected_teams and team in selected_teams:
                     if not secondary_filename and "LESS" in allowed_options:
                         continue
